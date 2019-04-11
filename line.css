@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'sillkscreen';
+    src: url('slkscr.ttf');
+}
+
+*{
+  font-family: 'sillkscreen';
+}
+
+.player {
+     display: inline-block;
+     position: absolute;
+}
+
+#p1{
+  color: white;
+  text-align: right;
+  font-size:50px;
+
+}
+
+#p2{
+  color: white;
+  text-align: right;
+  font-size:50px;
+  left: 1400px;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid black;
+}
+
+  body {
+
+    background-color: black;
+
+  }
