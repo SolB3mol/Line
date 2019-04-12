@@ -36,15 +36,15 @@ for ( i = 1; i<=H-1; i++ ) {
         lv[ i ][ j ] = 0 ;
     }
 }
-for ( i = 1; i<=H-1; i++ ) {
+for ( i = 1; i<=H; i++ ) {
     ld1[ i ] = [];
-    for ( j = 1; j<=W-1; j++ ) {
+    for ( j = 1; j<=W; j++ ) {
         ld1[ i ][ j ] = 0 ;
     }
 }
-for ( i = 1; i<=H-1; i++ ) {
+for ( i = 1; i<=H; i++ ) {
     ld2[ i ] = [];
-    for ( j = 1; j<=W-1; j++ ) {
+    for ( j = 1; j<=W; j++ ) {
         ld2[ i ][ j ] = 0 ;
     }
 }
