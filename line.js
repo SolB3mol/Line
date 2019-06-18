@@ -11,6 +11,7 @@ var numr =(10 *  multipl);
 
 var m = [],H = 5,W = 5, lo = [], lv = [], ld1 = [], ld2 = [];
 
+{
 for ( i = 1; i<=H; i++ ) {
     m[ i ] = [];
     for ( j = 1; j<=W; j++ ) {
@@ -48,7 +49,7 @@ for ( i = 1; i<=H; i++ ) {
         ld2[ i ][ j ] = 0 ;
     }
 }
-
+}
 
 function pointDraw(){
   firstTake++;
@@ -225,8 +226,8 @@ for(i=0; i<=3 ;i++){
       var xM = event.clientX;
       var yM = event.clientY;
 
-      x=xM-659;
-      y=yM-184;
+      x=xM-0;
+      y=yM-0;
       c.fillStyle = "gray";
 
 
